@@ -68,6 +68,10 @@ html {
 .links-container .link{
     padding: 2rem;
 }
+.link a{
+    text-decoration: none;
+    color: var(--white);
+}
 
 .content {
     margin-top: 10rem;
