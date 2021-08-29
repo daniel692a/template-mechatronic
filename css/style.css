@@ -36,6 +36,7 @@ html {
     justify-content: space-around;
     width: 3rem;
     height: 3rem;
+    cursor: pointer;
 }
 .menu .line{
     height: 3px;
@@ -86,4 +87,14 @@ html {
 }
 .img-container .img{
     width: 100%;
+}
+.footer{
+    background-color: var(--primaty-color);
+    color: var(--white);
+    height: 20vh;
+}
+.footer .ft-t{
+    font-size: 2rem;
+    padding: 3rem 1rem 0 1rem;
+    text-align: center;
 }
