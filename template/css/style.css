@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --primaty-color: #441B69;
+    --secondary-color: #FFE9FF;
+    --green: #00C9AF;
+    --white: #efefef;
+    --black: #121212;
+    --title-size: 4rem;
+    --subtitle-size: 3rem;
+    --paragraph: 1.4rem;
+    --radius: 2rem;
+}
+.header {
+    background-color: #441B69;
+    color: var(--white);
+    padding: 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.hamburger{
+    display: flex;
+}
+.hamburger .menu{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+}
+.menu .line{
+    height: 3px;
+    background-color: var(--white);
+}
+.header .hamburger .tit {
+    font-size: var(--title-size);
+}
+
+.navbar {
+    width: 40vw;
+    position: fixed;
+    top: 9rem;
+    left: 0;
+    background-color: var(--primaty-color);
+    transition: all 0.3s ease-in-out;
+    height: 90vh;
+}
+.active {
+    left: 0;
+}
+.off {
+    left: -100%;
+}
+.navbar .links-container{
+    list-style: none;
+    font-size: var(--paragraph);
+}
+.links-container .link{
+    padding: 2rem;
+}
+
+.content {
+    margin-top: 10rem;
+    padding: 2rem 3rem;
+}
+.content .con-tit{
+    font-size: var(--subtitle-size);
+    text-align: center;
+}
+.content .description {
+    font-size: var(--paragraph);
+    text-align: justify;
+}
+.img-container{
+    width: 80%;
+    margin: auto;
+}
+.img-container .img{
+    width: 100%;
+}
+.footer{
+    background-color: var(--primaty-color);
+    color: var(--white);
+    height: 20vh;
+}
+.footer .ft-t{
+    font-size: 2rem;
+    padding: 3rem 1rem 0 1rem;
+    text-align: center;
+}
