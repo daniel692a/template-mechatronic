@@ -22,17 +22,54 @@ html {
     background-color: #441B69;
     color: var(--white);
     padding: 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
-.header .tit {
+.hamburger{
+    display: flex;
+}
+.hamburger .menu{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 3rem;
+    height: 3rem;
+}
+.menu .line{
+    height: 3px;
+    background-color: var(--white);
+}
+.header .hamburger .tit {
     font-size: var(--title-size);
 }
+
 .navbar {
-    width: 30vw;
+    width: 40vw;
     position: fixed;
+    top: 9rem;
+    left: 0;
+    background-color: var(--primaty-color);
+    transition: all 0.3s ease-in-out;
+    height: 90vh;
+}
+.active {
+    left: 0;
+}
+.off {
     left: -100%;
+}
+.navbar .links-container{
+    list-style: none;
+    font-size: var(--paragraph);
+}
+.links-container .link{
+    padding: 2rem;
 }
 
 .content {
+    margin-top: 10rem;
     padding: 2rem 3rem;
 }
 .content .con-tit{
@@ -42,4 +79,11 @@ html {
 .content .description {
     font-size: var(--paragraph);
     text-align: justify;
+}
+.img-container{
+    width: 80%;
+    margin: auto;
+}
+.img-container .img{
+    width: 100%;
 }
