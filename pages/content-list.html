@@ -1,36 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!--Meta Tags-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página para evalucaión de Mecatrónica en UPP">
-    <meta name="robots" content="index,follow">
+    <title>Lista de contenidos</title>
 
-    <title>Miguel Angel Torres Aviles</title>
-
-    <!--Styles-->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1000px)">
-    <link rel="stylesheet" href="./css/basic.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/basic.css">
+    <link rel="stylesheet" href="../css/content-list.css">
 
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
-    <!--Favicon-->
-    <link rel="shortcut icon" href="./assets/gear.png" type="image/x-icon">
 
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../assets/gear.png" type="image/x-icon">
 </head>
 <body>
     <!--HEADER-->
-
     <header class="header">
         <nav class="navbar off">
             <ul class="links-container">
-                <li class="link"><a href="./pages/content-list.html">Lista de contenidos</a></li>
+                <li class="link"><a href="../index.html">Inicio</a></li>
                 <li class="link"><a href="./rayos.html">Difractómetro de Rayos X</a></li>
                 <li class="link"><a href="./cristalina.html">Estructura Cristalina</a></li>
                 <li class="link"><a href="./problems.html">Problemas estructuras cristalinas</a></li>
@@ -47,29 +41,23 @@
     </header>
 
     <!--MAIN-->
-
     <main class="content">
-        <section class="profile">
-            <figure>
-                <img src="./assets/robotic.png" alt="Robotic Arm">
-            </figure>
-            <h3><b>Alumno</b>: Miguel Angel Torres Aviles</h3>
-            <h3><b>Carrera</b>: Ingeniería Mecatrónica</h3>
-            <h3><b>Asignatura</b>: Estructura y Propiedades de los materiales</h3>
-            <h3><b>Grupo</b>: 1MM1</h3>
-            <figure class="engine">
-                <img src="./assets/gear.png" alt="Engrane rotatorio">
-            </figure>
-            <a href="./pages/content-list.html">Ir a los contenidos</a>
+        <section>
+            <h2>Lista de contenidos</h2>
+            <ol>
+                <li><a href="./rayos.html">Difractómetro de Rayos X</a></li>
+                <li><a href="./cristalina.html">Estructura Cristalina</a></li>
+                <li><a href="./problems.html">Problemas estructuras cristalinas</a></li>
+            </ol>
         </section>
     </main>
+
 
     <!--FOOTER-->
 
     <footer class="footer">
         <h3 class="ft-t">Instituto Politécnico Nacional</h3>
     </footer>
-    <script src="./js/index.js"></script>
-
+    <script src="../js/index.js"></script>
 </body>
 </html>

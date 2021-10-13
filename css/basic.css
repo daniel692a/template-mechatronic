@@ -12,8 +12,8 @@ html {
 /* Variables */
 :root{
     --primary-color: #6e1942;
-    --secondary-color: #FFE9FF;
-    --green: #00C9AF;
+    --secondary-color: #C8604B;
+    --thid-color: #E68F4C;
     --white: #efefef;
     --black: #121212;
     --title-size: 4rem;
@@ -84,6 +84,7 @@ html {
 
 .link a{
     text-decoration: none;
+    font-size: 2rem;
     color: var(--white);
 }
 
